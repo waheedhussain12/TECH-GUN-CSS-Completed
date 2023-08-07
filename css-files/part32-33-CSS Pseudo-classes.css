@@ -1,0 +1,39 @@
+/* li:first-child{
+    color: violet;
+    background-color: chocolate;
+}
+li:last-child{
+    color: chartreuse;
+    background-color: chocolate;
+} */
+/* li:nth-child(even){
+    color: violet;
+    background-color: chocolate;
+} */
+/* li:nth-last-child(odd){
+    color: violet;
+    background-color: chocolate;
+} */
+
+/* li:first-child{
+    color: violet;
+    background-color: chocolate;
+} */
+li::first-letter{
+    /* font-size: 30px; */
+    color: coral;
+    background-color:firebrick ;
+
+}
+li::first-line{
+    color: green;
+    background-color: violet;
+}
+li::before{
+    content: "hyyyy";
+    font-size: 30px;
+}
+li::after{
+    content: "waheed";
+    color: yellow;
+}

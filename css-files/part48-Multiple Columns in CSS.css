@@ -1,0 +1,11 @@
+.col{
+    column-count: 3;
+    column-gap: 50px;
+   /* column-width: 2px;
+   column-rule-color: violet;
+   column-rule-style: solid; */
+   column-rule: 1px solid gold;
+   
+
+
+}

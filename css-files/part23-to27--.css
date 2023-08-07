@@ -1,0 +1,64 @@
+
+.gradient{
+
+    height: 200px;
+    border: 2px solid tan;
+    /* background-image: linear-gradient(to bottom right ,pink ,yellow, red); */
+    /* background-image: linear-gradient(163deg ,pink ,yellow, red); */
+    background-image: radial-gradient( circle,red , pink ,blue)
+
+}
+.overflow{
+    width: 400px;
+    height: 300px;
+    border: 2px solid firebrick;
+    overflow:scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow: auto;
+    resize: vertical;
+}
+
+.list{
+    border: 3px solid firebrick;
+   
+}
+ul li{
+    border: 3px solid rgb(166, 181, 219);
+    list-style: decimal;
+    list-style: decimal;
+    list-style: georgian;
+    list-style: upper-alpha;
+    list-style: lower-latin;
+    list-style: lower-greek;
+    list-style-position: inside;
+   
+}
+ol li{
+    border: 2px solid firebrick;
+    list-style:decimal-leading-zero;
+    list-style: upper-roman;
+}
+table{
+    border: 2px solid gainsboro;
+    border-collapse: separate;
+    border-collapse: collapse;
+    empty-cells: hide;
+    table-layout: fixed;
+    width: 300px;
+    height: 200px;
+}
+caption{
+    border: 2px solid red; 
+    caption-side: bottom;
+}
+th{
+    border: 2px solid yellow;
+    text-align: left;
+   
+}
+td{
+    border: 2px solid lightcoral;   
+    text-align: right;
+    vertical-align: top;
+}

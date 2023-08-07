@@ -1,0 +1,28 @@
+.container{
+      width: 900px;
+    min-height: 100vh;
+    background-color: #ccc;
+   margin: 0 auto;
+}
+
+/* all about selectors */
+/* h1 , p{
+    background-color: violet;
+} */
+/* select all element or tags sperated by , */
+
+/* class selector */
+
+/* .headings{
+    color: yellowgreen;
+} */
+.h1-p{
+    color: wheat;
+    background-color: coral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* id and class both are working in one element */
+#heading-id{
+
+    font-size: 29px;
+}

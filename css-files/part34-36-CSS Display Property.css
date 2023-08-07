@@ -1,0 +1,140 @@
+/* .block{
+    border: 2.5px solid salmon;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    margin: 5px;
+   background-color: teal;
+} */
+/* display block */
+
+/* .block{
+    border: 2.5px solid salmon;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    margin: 5px;
+   background-color: teal;
+   display: inline;
+   padding: 10px;
+   margin-top: 40px;
+} */
+/* left right margin works
+=>> top to bottom not work in inline 
+*/
+/* width and height not gonna work if you chnge block to inline property */
+
+.block{
+    border: 2.5px solid salmon;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+   background-color: teal;
+   display: inline-block;
+   padding: 5px;
+   margin: 20px;
+   box-sizing: border-box;
+}
+/* display take both properties block and inline 
+ all properties gonna work in inline-block property for example
+ width height margin top bottom padding 
+*/
+
+#main-box{
+    border: 2px solid greenyellow;
+    width: 500px;
+    height: 200px;
+    background-color: violet;
+   margin: 60px;
+   position: relative;
+}
+
+#box1{
+    width:100px;
+    height: 100px;
+    text-align: center;
+    background-color: tomato;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+}
+/* absolute position follow always parent or nearlest parent
+
+*/
+
+
+#box2{
+    width:100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(142, 133, 131);
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    top: 50px;
+}
+/* relative position does not left its position
+change current position asides
+*/
+
+
+#box3{
+    width:100px;
+    height: 100px;
+text-align: center;
+    background-color: rgb(18, 164, 96);
+    display: inline-block;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+/* fixed any width and height */
+
+#Z-index{
+
+    border: 2px solid greenyellow;
+    width: 50%;
+    height: 200px;
+    display: inline-block;
+    background-color: rgb(130, 238, 135);
+   margin: 60px;
+   position: relative;
+}
+
+
+#a{
+    width:100px;
+    height: 100px;
+    text-align: center;
+    background-color: tomato;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+   
+}
+#b{
+    width:100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(61, 49, 47);
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: -50px;
+    z-index: 4;
+   
+   
+}
+#c{
+    width:100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(71, 181, 255);
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: -100px;
+    z-index: 3;
+   
+   
+}

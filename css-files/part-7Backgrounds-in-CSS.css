@@ -1,0 +1,10 @@
+.img-container{
+background-image: url(/practice-projects/imgs/card2.png),url("/practice-projects/imgs/Shape11.png");
+ /* background-position:  center left; */
+ /* background-size: cover; */
+ background-position: top left, bottom right;
+ background-attachment: scroll;
+ background-repeat: no-repeat;
+
+
+}
